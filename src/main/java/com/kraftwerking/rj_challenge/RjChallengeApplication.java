@@ -30,7 +30,6 @@ public class RjChallengeApplication {
 	private Connector createStandardConnector() {
 		Connector connector = new Connector("org.apache.coyote.http11.Http11NioProtocol");
 		connector.setPort(httpPort);
-		connector.setRedirectPort(8443);
 		return connector;
 	}
 
