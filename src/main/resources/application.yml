@@ -1,0 +1,11 @@
+server:
+  port: 8443
+  ssl:
+    enabled: true
+    key-alias: tomcat
+    key-store: "rj_challenge.keystore"
+    key-store-type: jks
+    key-store-password: changeit
+    key-password: changeit
+http:
+  port: 8080
